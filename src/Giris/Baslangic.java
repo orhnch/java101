@@ -29,5 +29,11 @@ public class Baslangic {
 
        System.out.println("Not Ortalaması: " + sonuc);
 
+       if (sonuc<=60) {
+          System.out.print("Kaldiniz!");
+       }
+       else {
+          System.out.print("Geçtiniz!");
+       }
     }
 }
